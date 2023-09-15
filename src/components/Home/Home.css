@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;;
+}
+
+body{
+    text-align: center;
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 4px ), repeating-linear-gradient( #43445455, #434454 );
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    padding-top: 50px;
+}
+
+.card-container{
+    text-align: center;
+}
+
+.card-main{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 0 left;
+}
+
+.card{
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px #00000025;
+    padding-top: 20px;
+}
+
+.photo{
+    border-radius: 50px;
+    border: 1px solid rgba(199, 199, 199, 0.624);
+    background-color: #e5e5f7;
+    background-image: radial-gradient(circle at center center, #26972b, #e5e5f7), repeating-radial-gradient(circle at center center, #26972b, #26972b, 40px, transparent 80px, transparent 40px);
+    background-blend-mode: multiply;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.add-btn{
+    margin-top: 20px;
+    background-color: green;
+    color: white;
+    font-weight: 700;
+    border: none;
+}
+
+.add-btn:hover{
+    background-color: rgb(88, 171, 88);
+    color: white;
+}

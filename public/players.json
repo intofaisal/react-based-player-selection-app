@@ -1,0 +1,83 @@
+[
+      {
+        "ID": 1,
+        "Name": "Shakib Al Hasan",
+        "Role": "All-Rounder",
+        "Age": 33,
+        "Price": "150000",
+        "Image": "https://i.ibb.co/Z8fHhKZ/p61xo-Ks2hz1666341608222.png"
+      },
+      {
+        "ID": 2,
+        "Name": "Tamim Iqbal",
+        "Role": "Batsman",
+        "Age": 31,
+        "Price": "120000",
+        "Image": "https://i.ibb.co/Zd6SVwN/tamim.png"
+      },
+      {
+        "ID": 3,
+        "Name": "Mushfiqur Rahim",
+        "Role": "Wicket-Keeper/Batsman",
+        "Age": 32,
+        "Price": "140000",
+        "Image": "https://i.ibb.co/XVMgZt0/Mushfiq.png"
+      },
+      {
+        "ID": 4,
+        "Name": "Mustafizur Rahman",
+        "Role": "Bowler",
+        "Age": 25,
+        "Price": "110000",
+        "Image": "https://i.ibb.co/nsZtQt1/Mustafizur.png"
+      },
+      {
+        "ID": 5,
+        "Name": "Mahmudullah",
+        "Role": "All-Rounder",
+        "Age": 34,
+        "Price": "130000",
+        "Image": "https://i.ibb.co/yy3x1fw/mahmud.png"
+      },
+      {
+        "ID": 6,
+        "Name": "Liton Das",
+        "Role": "Wicket-Keeper/Batsman",
+        "Age": 26,
+        "Price": "90000",
+        "Image": "https://i.ibb.co/wgFVdTL/litton.png"
+      },
+      {
+        "ID": 7,
+        "Name": "Mehidy Hasan",
+        "Role": "All-Rounder",
+        "Age": 22,
+        "Price": "80000",
+        "Image": "https://i.ibb.co/3kjTcty/Mehidy.png"
+      },
+      {
+        "ID": 8,
+        "Name": "Taskin Ahmed",
+        "Role": "Bowler",
+        "Age": 26,
+        "Price": "95000",
+        "Image": "https://i.ibb.co/Brd3H0z/Taskin.png"
+      },
+      {
+        "ID": 9,
+        "Name": "Najmul Hossain Shanto",
+        "Role": "Batsman",
+        "Age": 21,
+        "Price": "50000",
+        "Image": "https://i.ibb.co/y071SJ9/shanto.png"
+      },
+      {
+        "ID": 10,
+        "Name": "Afif Hossain",
+        "Role": "All-Rounder",
+        "Age": 21,
+        "Price": "50000",
+        "Image": "https://i.ibb.co/c2gcv9s/afif.png"
+      }
+    ]
+  
