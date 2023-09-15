@@ -4,4 +4,4 @@ This is a beginner project using React.js and will be helpful for beginner who a
 
 (NOTE: THE PROJECT IS NOT MOBILE/TABLET RESPONSIVE)
 
-Live link -  [team-selection-js.surge.sh](www.team-selection-js.surge.sh) 
+Live link -  [team-selection-js.surge.sh](http://www.team-selection-js.surge.sh) 
