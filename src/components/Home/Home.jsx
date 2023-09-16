@@ -1,6 +1,4 @@
-/* eslint-disable react/jsx-key */
-/* eslint-disable no-unused-vars */
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import "./Home.css";
 import Cart from "../Cart/Cart";
 import Swal from 'sweetalert2/dist/sweetalert2.js'
@@ -52,7 +50,6 @@ const Home = () => {
 
   const handleRemovePlayer = (player) => {
     console.log(player.ID);
-    let total = 0;
     const newSetPlayers = selectedPlayers.filter(sportsman => sportsman.ID !== player.ID)
     setSelectedPlayers(newSetPlayers);
     const playerPrice = parseFloat(player.Price);

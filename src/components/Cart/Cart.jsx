@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-import "./Cart.css";
 
 const Cart = ({ selectedPlayers, totalCost, remaining, handleRemovePlayer }) => {
   return (
