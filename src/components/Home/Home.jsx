@@ -61,24 +61,24 @@ const Home = () => {
   }
 
   return (
-    <div className="container">
-      <div className="card-container">
-        <h2>Players</h2>
-        <div className="card-main">
+    <div className="flex gap-20 md:gap-0 flex-col-reverse md:flex-row justify-around p-4 pt-12">
+      <div className="text-center">
+        <h2 className="text-3xl font-bold">Players</h2>
+        <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ml-0 auto place-items-center">
           {players.map((player) => (
-            <div key={player.ID} className="card">
-              <img className="photo" src={player.Image} alt="" />
-              <h3>{player.Name}</h3>
+            <div key={player.ID} className="w-[250px] h-[300px] bg-white rounded-lg pt-5 hover:scale-105 hover:duration-300">
+              <img className="rounded-full bg-gradient-to-r from-green-500 to-green-700 bg-blend-multiply w-24 h-24 mb-2 mx-auto" src={player.Image} alt="" />
+              <h3 className="text-xl font-medium">{player.Name}</h3>
               <p>{player.Role}</p>
               <p>{player.Age} Years</p>
               <p>${player.Price}</p>
-              <button onClick={() => handleSelectPlayers(player)} className="add-btn">Add to Team</button>
+              <button onClick={() => handleSelectPlayers(player)} className="mt-5 text-white font-bold bg-green-700 hover:bg-green-600 p-2 rounded-md">Add to Team</button>
             </div>
           ))}
         </div>
       </div>
-      <div className="cart-container">
-        <h2>Selected Players</h2>
+      <div>
+        <h2 className="mb-20 text-3xl font-bold">Selected Players</h2>
         <Cart selectedPlayers={selectedPlayers} totalCost={totalCost} remaining={remaining} handleRemovePlayer={handleRemovePlayer}></Cart>
       </div>
     </div>
